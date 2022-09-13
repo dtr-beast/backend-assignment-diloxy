@@ -11,7 +11,7 @@ DATABASE_URL="file:./dev.db"
 
 ```bash
 npm i #Install Dependencies
-npm run prisma-migrate # Migrate the database
+npm run prisma-migrate -- --name init # Migrate the database
 npm run dev # Start the application
 ```
 
